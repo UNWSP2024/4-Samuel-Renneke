@@ -1,14 +1,10 @@
-# Program #2: Movie Tix
-# Write a program that has the user input various movie names and how many 
-# tickets are desired for each movie.  
-# At the end of the program it prints out the total number of tickets desired by the user.  
-# Use either a "for loop" or "while loop" to accomplish this.
-
+#Movie Tix
+#Samuel Renneke, 2/13/2026
 def main():
-    ######################
-    # WRITE YOUR CODE HERE
-    ######################
-
-
+    tickets = int(input("How many tickets would you like for Titanic? "))
+    tickets = tickets + int(input("How many tickets would you like for Saving Private Ryan? "))
+    tickets = tickets + int(input("How many tickets would you like for Despicable Me? "))
+    for i in range(tickets):
+        print("Ticket " + str(i + 1))
 if __name__ == '__main__':
     main()
