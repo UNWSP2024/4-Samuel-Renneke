@@ -1,5 +1,5 @@
 #Movie Tix
-#Samuel Renneke, 2/13/2026
+#Samuel Renneke, 2/12/2026
 def main():
     tickets = int(input("How many tickets would you like for Titanic? "))
     tickets = tickets + int(input("How many tickets would you like for Saving Private Ryan? "))
