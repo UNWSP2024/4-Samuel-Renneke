@@ -1,5 +1,5 @@
 #Average Rainfall
-#Samuel Renneke, 2/13/2026
+#Samuel Renneke, 2/12/2026
 def main():
     years = int(input("How many years would you like to input? "))
     rain = 0
