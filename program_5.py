@@ -1,5 +1,5 @@
 #Bank Balance
-#Samuel Renneke, 2/13/2026
+#Samuel Renneke, 2/12/2026
 
 def main():
     budget = float(input("What's your budget? "))
